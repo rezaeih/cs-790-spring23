@@ -21,7 +21,7 @@ programming:
 ## Obtaining required software
 
 To complete the exercises, you will need to either build a
-virtual machine using the explanation below, or install all the  dependencies such as p4c, bmv2, and mininet by hand refer to README file in previous directory for links.
+virtual machine using the explanation below, or install all the  dependencies such as p4c, bmv2, and mininet by hand. Refer to README file in previous directory for links.
 
 To build the virtual machine:
 - Install [Vagrant](https://vagrantup.com) and [VirtualBox](https://virtualbox.org)
