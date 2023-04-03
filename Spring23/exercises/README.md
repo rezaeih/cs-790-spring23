@@ -30,11 +30,13 @@ To build the virtual machine:
 - Log in with username `p4` and password `p4` and issue the command `sudo shutdown -r now`
 - When the machine reboots, you should have a graphical desktop machine with the required
 software pre-installed.
-- cd vm (inside the running vm)
-- chmod 777 ./root-bootstrap.sh; sudo chown 777 ./root-bootstrap.sh
-- sudo ./root-bootstrap.sh
-- chmod 777 ./user-bootstrap.sh; sudo chown 777 ./user-bootstrap.sh
-- sudo ./user-bootstrap.sh
+- `cd vm` (inside the running vm)
+- `chmod 777 ./root-bootstrap.sh; sudo chown 777 ./root-bootstrap.sh`
+- `sudo ./root-bootstrap.sh`
+- `chmod 777 ./user-bootstrap.sh; sudo chown 777 ./user-bootstrap.sh`
+- `pip install pathlib`
+- `sudo ./user-bootstrap.sh`
+- 
 
 To install dependencies by hand, please reference the [vm](../vm) installation scripts.
 They contain the dependencies, versions, and installation procedure.
